@@ -1,4 +1,4 @@
-# Deepgram Custom Speech Endpointing Reference Implementations
+# Deepgram Speech Segmentation Heuristics
 
 This repository contains reference implementations for robust end-of-speech detection using a combination of Deepgram's real-time transcription API features and custom heuristics. The goal is to demonstrate how low-latency, real-time solutions can be created using the Deepgram API, open-source Voice Activity Detection (VAD), and tailored heuristics.
 
