@@ -4,7 +4,7 @@ This repository contains reference implementations for robust end-of-speech dete
 
 ## Overview
 
-The project showcases how to combine various Deepgram API features with local processing to achieve accurate and low-latency speech endpointing. It utilizes:
+The project showcases how to combine various Deepgram API features with local processing to achieve accurate and low-latency utterance segmentation. It utilizes:
 
 - Deepgram API features:
   - Endpointing
@@ -62,7 +62,7 @@ While the current VAD implementation represents our recommended approach for rob
 - A web app implementation demonstrating the VAD approach with a simple web frontend
 - Examples showing heuristic approaches to end-of-speech detection without using a local VAD, relying solely on analysis of transcript results
 
-It's important to note that for the most reliable and low-latency performance, we recommend using a local VAD (such as `silero-VAD`) as close as possible to where audio enters the application. This forms the cornerstone of a robust heuristic approach. Other examples are provided to demonstrate alternative methods and use cases, but may not achieve the same level of performance as the VAD-based approach.
+It's important to note that for the most reliable and low-latency performance, we recommend using a local VAD (such as `silero-VAD`) as close as possible to where audio enters the application. This forms the cornerstone of a robust heuristic approach. Other examples are provided to demonstrate alternative methods and use cases, but may not achieve the same level of performance as the local VAD-based approach.
 
 ## Dependencies
 
