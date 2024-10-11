@@ -16,7 +16,7 @@ DEEPGRAM_API_KEY = os.getenv("DEEPGRAM_API_KEY")
 INPUT_SAMPLE_RATE = 48000 # Microphone sample rate Note: Must manually provide this
 # Silence required for endpointing for both Deepgram API VAD (speech_final) and local VAD (silero-VAD)
 # TODO: Make it easier to just pass in ms, handle the math in code
-MIN_SILENCE_DURATION_MULTIPLIER = 10 # Multiples of 32 ms
+MIN_SILENCE_DURATION_MULTIPLIER = 8 # Multiples of 32 ms
 PAUSE_THRESHOLD = 1.0 # Allowed pause between words in seconds, for local utterance_end
 
 # Avoid changing these directly
